@@ -1,0 +1,28 @@
+.achorpaneWeather{
+	-fx-background-color: linear-gradient(to bottom, #00bfff , 	#5f9ea0 ); 
+}
+
+.textFieldEnterCity{
+	-fx-background-radius : 10 ; 
+	-fx-border-radius : 10 ; 
+	-fx-background-color  : white ; 
+}
+
+.anchorPane{
+	-fx-background-color : white ; 
+	-fx-background-radius : 10 ; 
+	-fx-border-radius : 10 ; 	
+}
+
+.buttonsearch{
+	-fx-background-color: transparent ; 
+	-fx-border-radius : 10 ;
+	-fx-background-radius: 10 ;
+}
+
+.buttonsearch:hover{
+	-fx-background-color: transparent ; 
+	-fx-border-radius : 10 ;
+	-fx-background-radius: 10 ;
+	-fx-cursor: hand;
+}

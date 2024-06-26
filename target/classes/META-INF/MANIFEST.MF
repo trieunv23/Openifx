@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: Admin
+Build-Jdk: 21.0.1
+Class-Path: ./javafx-controls-22-ea+16.jar ./javafx-controls-22-ea+16-wi
+ n.jar ./javafx-fxml-22-ea+16.jar ./javafx-fxml-22-ea+16-win.jar ./javaf
+ x-graphics-22-ea+16.jar ./javafx-graphics-22-ea+16-win.jar ./javafx-swi
+ ng-22-ea+16.jar ./javafx-swing-22-ea+16-win.jar ./javafx-web-22-ea+16.j
+ ar ./javafx-web-22-ea+16-win.jar ./javafx-media-22-ea+16.jar ./javafx-m
+ edia-22-ea+16-win.jar ./javafx-base-22-ea+16.jar ./javafx-base-22-ea+16
+ -win.jar ./gson-2.8.9.jar ./httpclient-4.5.13.jar ./httpcore-4.4.13.jar
+  ./commons-logging-1.2.jar ./commons-codec-1.11.jar ./javax.mail-api-1.
+ 6.2.jar ./javax.mail-1.6.2.jar ./activation-1.1.jar ./commons-validator
+ -1.7.jar ./commons-beanutils-1.9.4.jar ./commons-digester-2.1.jar ./com
+ mons-collections-3.2.2.jar ./json-20231013.jar
+Main-Class: application.MainApp
+Created-By: Maven Integration for Eclipse
+

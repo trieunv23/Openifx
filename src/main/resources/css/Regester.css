@@ -1,0 +1,96 @@
+.anchorpane{  
+	-fx-border-radius : 15 ;
+	-fx-border-color : black ; 
+	-fx-background-radius: 15 ;   
+}
+
+.buttoneye{
+	-fx-background-color : transparent ; 
+}
+
+.buttoneye:hover{
+	-fx-background-color : transparent ;
+	-fx-cursor: hand ;  
+}
+
+.buttonFinish{
+	-fx-background-color :   #6495ed  ; 
+	-fx-background-radius : 3 ;  
+	-fx-text-fill : white	 ; 
+}
+
+.buttonFinish:hover{
+	-fx-background-color :   #0000ff  ; 
+	-fx-background-radius : 3 ;  
+	-fx-text-fill : white	 ; 
+	-fx-cursor : hand ; 
+}
+
+
+.buttonshow{
+	-fx-background-color : transparent ; 
+}
+
+.buttonshow:hover{
+	-fx-background-color : transparent ; 
+	-fx-cursor: hand ; 
+}
+
+.buttonLogin{
+	-fx-background-color : transparent ; 
+}
+
+.buttonLogin:hover{
+	-fx-background-color : #dcdcdc ;
+	-fx-cursor : hand ;  
+}
+
+.comboBox:hover{
+	-fx-cursor : hand ; 
+}
+
+.datePicker:hover{
+	-fx-cursor : hand ; 
+}
+
+.datePicker .button:hover{
+	-fx-cursor: hand ; 
+}
+
+.buttonback{
+	-fx-background-color : transparent ; 
+}
+
+.buttonback:hover{
+	-fx-background-color : #dcdcdc ; 
+	-fx-cursor: hand ; 
+}
+
+.centered-hbox {
+    -fx-alignment: center;
+    -fx-background-color : white ; 
+}
+
+.textfield{
+	-fx-background-color: transparent;
+}
+
+.passwordfield{
+	-fx-background-color: transparent; 	 
+}
+
+.tooltip{
+	-fx-background-color : white;
+	-fx-text-fill: black ; 
+}
+
+.buttonCheckmail{
+	-fx-background-color : transparent ; 
+}
+
+.buttonCheckmail:hover{
+	-fx-background-color : transparent ; 
+	-fx-cursor: hand ; 
+}
+
+

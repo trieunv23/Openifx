@@ -1,0 +1,38 @@
+
+.anchorpane{
+	-fx-background-color : black ; 
+	-fx-background-radius : 10 ; 
+}
+
+.anchorpane2{
+	-fx-background-color:  white ; 
+	-fx-background-radius : 10 ; 
+}
+
+.buttonnumber{
+	-fx-background-color : white;
+}
+
+.buttonequal{
+	-fx-background-color : #6495ed ; 
+}
+
+.gridpane{
+	-fx-font-size : 20 ; 
+}
+
+.gridpane:hover{
+	-fx-cursor: hand ;
+	-fx-font-size : 20 ;  
+}
+
+.buttonmenu{
+	-fx-background-color : white ; 
+	-fx-background-radius : 5 ; 
+}
+
+.buttonmenu:hover{
+	-fx-background-color : white ; 
+	-fx-background-radius : 5 ;
+	-fx-cursor: hand ;  
+}

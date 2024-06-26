@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="652.0" styleClass="achorpaneWeather" stylesheets="@../css/Weather.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WeatherAppController">
+   <children>
+      <TextField fx:id="city" layoutX="274.0" layoutY="34.0" prefHeight="33.0" prefWidth="175.0" promptText="Enter City" styleClass="textFieldEnterCity" stylesheets="@../css/Weather.css" />
+      <Label fx:id="typeweather" layoutX="51.0" layoutY="328.0" prefHeight="27.0" prefWidth="187.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="462.0" layoutY="33.0" mnemonicParsing="false" onAction="#search" styleClass="buttonsearch" stylesheets="@../css/Weather.css">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="28.0">
+               <image>
+                  <Image url="@../Images/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane layoutX="30.0" layoutY="21.0" prefHeight="26.0" prefWidth="45.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label layoutX="9.0" layoutY="5.0" prefHeight="17.0" prefWidth="25.0" text="Lat : " />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="274.0" layoutY="109.0" prefHeight="108.0" prefWidth="175.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label layoutX="63.0" layoutY="17.0" text="Temprerature">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="temprerature" layoutX="81.0" layoutY="51.0" prefHeight="27.0" prefWidth="82.0" text="0 °C">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="59.0" layoutX="10.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Images/temperature.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="462.0" layoutY="109.0" prefHeight="108.0" prefWidth="175.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label layoutX="68.0" layoutY="22.0" text="Wind Speed">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="windspeed" layoutX="92.0" layoutY="56.0" prefHeight="27.0" prefWidth="75.0" text="0 m/s">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="8.0" layoutY="26.0">
+               <image>
+                  <Image url="@../Images/windspeed.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="274.0" layoutY="235.0" prefHeight="108.0" prefWidth="175.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="14.0" layoutY="27.0">
+               <image>
+                  <Image url="@../Images/humidity.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="75.0" layoutY="22.0" text="Humidity">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="humudity" layoutX="87.0" layoutY="55.0" prefHeight="27.0" prefWidth="75.0" text="0 %">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="462.0" layoutY="235.0" prefHeight="108.0" prefWidth="175.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label layoutX="93.0" layoutY="20.0" prefHeight="26.0" prefWidth="69.0" text="Visibility">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="visibility" layoutX="103.0" layoutY="54.0" prefHeight="27.0" prefWidth="59.0" text="0 Km">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="14.0" layoutY="17.0">
+               <image>
+                  <Image url="@../Images/Visibility.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imageWeathernow" fitHeight="180.0" fitWidth="180.0" layoutX="55.0" layoutY="155.0">
+         <image>
+            <Image url="@../Images/weather02d.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="31.0" layoutY="55.0" prefHeight="26.0" prefWidth="44.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label layoutX="7.0" layoutY="5.0" prefHeight="17.0" prefWidth="33.0" text="Lon :  " />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="57.0" layoutY="109.0" prefHeight="34.0" prefWidth="136.0">
+         <children>
+            <Label fx:id="resultCity" layoutY="1.0" prefHeight="33.0" prefWidth="175.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="15.0" layoutY="109.0">
+         <image>
+            <Image url="@../Images/Location.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="85.0" layoutY="21.0" prefHeight="26.0" prefWidth="75.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label fx:id="lat" layoutX="6.0" layoutY="5.0" prefHeight="26.0" prefWidth="69.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="85.0" layoutY="54.0" prefHeight="26.0" prefWidth="75.0" styleClass="anchorPane" stylesheets="@../css/Weather.css">
+         <children>
+            <Label fx:id="lon" layoutX="6.0" layoutY="-7.0" prefHeight="26.0" prefWidth="69.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="notification" layoutX="236.0" layoutY="72.0" prefHeight="19.0" prefWidth="251.0" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

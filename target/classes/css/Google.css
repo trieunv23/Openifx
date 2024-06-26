@@ -1,0 +1,13 @@
+.textsearch{
+	-fx-border-radius : 20 ; 
+	-fx-border-color :  #0000ff ; 
+	-fx-background-radius : 20 ; 
+}
+
+.button{
+	-fx-background-color: white ; 
+}
+
+.hbox{
+	-fx-background-color: white ; 
+}

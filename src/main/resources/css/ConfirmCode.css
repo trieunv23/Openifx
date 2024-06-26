@@ -1,0 +1,66 @@
+
+.buttonCode{
+	-fx-background-color :white ; 
+	-fx-background-radius: 4 ; 
+	-fx-font-size: 15 ;  
+	-fx-border-color: #808080 ; 
+	-fx-border-radius: 4 ; 
+}
+
+.buttonCode:hover{
+	-fx-background-color :white ; 
+	-fx-background-radius: 4 ;
+	-fx-font-size: 18 ;  
+	-fx-border-color: #808080 ; 
+	-fx-cursor: hand; 
+	-fx-border-radius: 4 ; 
+}
+
+.labelnotificationemail{
+	-fx-text-alignment: center;
+	-fx-font-size: 15; 
+}
+
+.buttonconfirm{
+	-fx-background-color: #3cb371 ; 
+	-fx-background-radius : 4 ;  
+	-fx-text-fill: white ; 
+}
+
+.buttonconfirm:hover{
+	-fx-background-color: #32cd32 ; 
+	-fx-background-radius : 4 ;
+	-fx-cursor: hand; 
+	-fx-text-fill: black; 
+}
+
+.buttonsendAgain{
+	-fx-background-color: transparent ; 
+	-fx-text-fill: #0000ff ; 
+}
+
+.buttonsendAgain:hover{
+	-fx-background-color: transparent ;
+	-fx-text-fill: #00008b ;
+	-fx-cursor : hand;  
+}
+
+.buttonClose{
+	-fx-background-color: transparent ; 
+}
+
+.buttonClose:hover{
+	-fx-background-color: transparent ; 
+	-fx-cursor: hand;
+}
+
+.labelsecond{
+	-fx-text-fill : red ; 
+}
+
+
+.anchorpanecorner{
+	-fx-background-radius: 15; 
+	-fx-background-color: linear-gradient(to bottom right,  #6495ed, #87cefa  ); 
+}
+

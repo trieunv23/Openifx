@@ -1,0 +1,103 @@
+.anchopaneTop{
+	-fx-background-color: black ;
+	
+}
+
+.anhchorpaneLeft{
+	-fx-background-color: white ;
+	
+}
+
+.anhchorpaneCenter{
+	
+}
+
+.anchopaneInteract{
+	-fx-background-color: white;
+}
+
+.button1{
+	-fx-background-color: transparent ; 
+}
+
+.button1:hover{
+	-fx-background-color: #a9a9a9 ; 
+	-fx-background-radius: 7;
+	-fx-cursor: hand ;
+}
+
+.anchopaner1{
+	-fx-background-color: #dcdcdc ;
+	-fx-background-radius : 30 ; 
+}
+
+.textfield1{
+	-fx-background-color: tranparent ;
+}
+
+.list-view_left {
+    -fx-background-color: transparent;
+}
+
+.list-view_left .list-cell {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-text-fill: black;
+}
+
+.list-view_left .list-cell:hover {
+    -fx-background-color: #dcdcdc;
+    -fx-background-radius : 7 ; 
+    -fx-cursor: hand; 
+}
+
+.list-view_left .list-cell:selected {
+    -fx-background-color: #6495ed;
+    -fx-background-radius : 7 ; 
+    -fx-cursor: hand;
+}
+
+
+.list-view_center {
+    -fx-background-color: white;
+}
+
+.list-view_center .list-cell {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-text-fill: black;
+}
+
+.list-view_center .list-cell:hover {
+    -fx-background-color: #dcdcdc;
+    -fx-cursor: TEXT; 
+}
+
+.menubutton{
+	-fx-background-color:transparent;
+}
+
+.menubutton  .arrow-button .arrow {
+	-fx-background-color:transparent;
+}
+
+.menubutton:hover{
+	-fx-background-color:transparent;
+	-fx-cursor: hand;
+}
+
+.buttonesetting{
+	-fx-background-color: transparent ;
+	-fx-background-radius : 7 ; 
+}
+
+.buttonesetting:hover{
+	-fx-background-color: #dcdcdc ; 
+	-fx-background-radius : 7 ; 
+	-fx-cursor: hand;
+}
+
+
+
+
+

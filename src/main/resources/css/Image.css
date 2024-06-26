@@ -1,0 +1,27 @@
+.acnhchorPaneResutFile{
+	-fx-border-radius : 5 ; 
+	-fx-border-color: black ; 
+}
+
+.imageView{
+	-fx-border-radius : 5 ; 
+	-fx-border-color : black ;
+}
+
+.button{
+	-fx-border-radius : 5 ; 
+	-fx-background-color : black ;
+	-fx-background-radius : 5 ;  
+	-fx-text-fill : #a9a9a9 ; 
+}
+
+.button:hover{
+	-fx-background-radius : 5 ; 
+	-fx-background-color : black ;
+	-fx-text-fill : white ;  
+	-fx-cursor: hand;
+}
+
+.achorPane{
+	-fx-background-color : white; 	
+}

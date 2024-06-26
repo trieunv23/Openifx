@@ -1,0 +1,32 @@
+.button1{
+	-fx-font-weight: 600;
+}
+
+.anchorPane{
+	-fx-border-radius : 5 ; 
+	-fx-border-color : black ; 
+}
+
+.anchorPane1{
+	-fx-background-color : white ; 
+}
+
+.anchorPane2{
+	-fx-background-color : white ; 	
+	-fx-border-radius : 5 ; 
+	-fx-background-radius : 5 ; 
+	-fx-border-color : black; 		
+}
+
+.button2{
+	-fx-background-color : #dcdcdc ; 
+	-fx-border-radius: 5 ; 
+}
+
+.button2:hover{
+	-fx-background-color :  #a9a9a9 ;
+	-fx-text-fill: white ;  
+	-fx-border-radius: 5 ;
+	-fx-cursor: hand;  
+}
+	

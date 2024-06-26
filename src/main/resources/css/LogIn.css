@@ -1,0 +1,44 @@
+
+.achorpaner{	 
+	-fx-border-radius : 15 ; 
+	-fx-border-color : black ; 
+	-fx-background-radius : 15 ; 
+}
+
+.buttonlogin{
+	-fx-text-fill : white ;  
+	-fx-background-color : #0000ff ;
+}
+
+.buttonlogin:hover{
+	-fx-text-fill : white ;  
+	-fx-background-color : #0000ff ;
+	-fx-cursor: hand ; 
+}
+
+.buttonregester{
+	-fx-text-fill : blue ;  
+}
+
+.buttonregester:hover{
+	-fx-text-fill : blue ;
+	-fx-cursor : hand ; 
+}
+
+.buttoneye{
+	-fx-background-color : transparent ; 
+}
+
+.buttoneye:hover{
+	-fx-background-color : transparent ; 
+	-fx-cursor: hand ; 
+}
+
+.hboxpassword{
+	-fx-border-color : #808080 ; 
+	-fx-border-radius: 4 ; 
+}
+
+.password1{
+	-fx-background-color: transparent ; 	
+}

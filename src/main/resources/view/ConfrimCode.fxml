@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="316.0" styleClass="anchorpanecorner" stylesheets="@../css/ConfirmCode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfirmCodeController">
+   <children>
+      <HBox layoutX="55.0" layoutY="162.0" prefHeight="35.0" prefWidth="206.0" spacing="15.0">
+         <children>
+            <TextField fx:id="t1" prefHeight="35.0" prefWidth="40.0" styleClass="buttonCode" stylesheets="@../css/ConfirmCode.css" />
+            <TextField fx:id="t2" prefHeight="35.0" prefWidth="40.0" styleClass="buttonCode" stylesheets="@../css/ConfirmCode.css" />
+            <TextField fx:id="t3" prefHeight="35.0" prefWidth="40.0" styleClass="buttonCode" stylesheets="@../css/ConfirmCode.css" />
+            <TextField fx:id="t4" prefHeight="35.0" prefWidth="40.0" styleClass="buttonCode" stylesheets="@../css/ConfirmCode.css" />
+         </children>
+      </HBox>
+      <Button fx:id="confirm" layoutX="47.0" layoutY="236.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="222.0" styleClass="buttonconfirm" stylesheets="@../css/ConfirmCode.css" text="Confirm" />
+      <Button layoutX="269.0" layoutY="7.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="32.0" styleClass="buttonClose" stylesheets="@../css/ConfirmCode.css">
+         <graphic>
+            <ImageView fx:id="close" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Label fx:id="nottificationemail" layoutX="44.0" layoutY="57.0" prefHeight="77.0" prefWidth="229.0" styleClass="labelnotificationemail" stylesheets="@../css/ConfirmCode.css" />
+      <Label layoutX="107.0" layoutY="23.0" prefHeight="27.0" prefWidth="101.0" text="Authenticity">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="notification" layoutX="21.0" layoutY="210.0" prefHeight="17.0" prefWidth="275.0" textFill="RED" />
+      <Label layoutX="44.0" layoutY="281.0" prefHeight="19.0" prefWidth="229.0" text="The confirmation code is valid for 60 s">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeline" layoutX="142.0" layoutY="312.0" prefHeight="17.0" prefWidth="32.0" styleClass="labelsecond" stylesheets="@../css/ConfirmCode.css" />
+      <Button fx:id="sendAgain" layoutX="117.0" layoutY="307.0" mnemonicParsing="false" onAction="#sendAgain" styleClass="buttonsendAgain" stylesheets="@../css/ConfirmCode.css" text="Send again" textFill="#0022ff" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView layoutX="218.0" layoutY="21.0">
+         <image>
+            <Image url="@../Images/codeicon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

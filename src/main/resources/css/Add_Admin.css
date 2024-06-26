@@ -1,0 +1,39 @@
+
+.buttonFinish{
+	-fx-background-color : #6495ed ; 
+}
+
+.buttonFinish:hover{
+	-fx-background-color : #0000ff ;
+	-fx-cursor: hand ;  
+	-fx-text-fill: white ; 
+}
+
+
+.buttonCancel{
+	-fx-background-color: white ; 
+}
+
+.buttonCancel:hover{
+	-fx-cursor: hand ;
+	-fx-background-color : #696969 ;  
+	-fx-text-fill: white ; 
+}
+
+.cbboxGender:hover{
+	-fx-cursor : hand ; 
+}
+
+.datePicker:hover{
+	-fx-cursor : hand ; 
+}
+
+.datePicker .button:hover{
+	-fx-cursor: hand ; 
+}
+
+.anchorpane1{
+	-fx-border-color: black ; 
+	-fx-background-color : #b5b5b5 ; 	 
+}
+

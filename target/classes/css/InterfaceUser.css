@@ -1,0 +1,122 @@
+.achorpanetop{
+	-fx-background-color : black  ; 
+	-fx-border-color : black ; 
+}
+
+.anchorpaneleft{
+	-fx-background-color : linear-gradient(to bottom, #191970 , #2f4f4f );
+	-fx-border-radius : 10 ; 
+	-fx-border-color : black ; 
+	-fx-background-radius : 10 ; 
+	-fx-text-fill : white ; 
+}
+
+.buttonback{
+	-fx-background-radius: 20; 
+    -fx-min-width: 30; 
+    -fx-min-height: 30; 
+    -fx-background-color: transparent ; 
+}
+
+.buttonback:hover{
+	-fx-background-radius: 20; 
+    -fx-min-width: 30; 
+    -fx-min-height: 30; 
+    -fx-background-color: transparent ;
+     -fx-cursor: hand;
+}
+
+.anchorpanecenter {
+	-fx-background-color : #483d8b; 
+	-fx-background-radius : 10 ; 
+	-fx-border-radius : 10 ; 
+	-fx-border-color : black ;  
+}
+
+.achorpaneroclock{
+	-fx-border-radius : 20 ; 
+	-fx-border-color: black ; 
+	-fx-background-color: white ; 
+	-fx-background-radius: 20 ; 
+}
+
+.anchorPaneDate {
+	-fx-background-color :  #708090 ; 
+	-fx-border-radius : 20 ; 
+	-fx-border-color: black ; 
+	-fx-background-radius: 20 ;
+}
+
+.buttontop{
+	-fx-background-color :transparent ;
+}
+
+.buttontop:hover{
+	-fx-background-color :transparent ;
+	-fx-cursor: hand;
+	
+}
+
+.achorpaneWeather{
+	-fx-background-color: linear-gradient(to bottom, #00bfff , 	#5f9ea0 );
+	-fx-border-radius : 20 ; 
+	-fx-border-color: black ; 
+	-fx-background-radius: 20 ;
+}
+
+.buttonsearch{
+	-fx-background-color: transparent ; 
+	-fx-border-radius : 10 ;
+	-fx-background-radius: 10 ;
+}
+
+.buttonsearch:hover{
+	-fx-background-color: transparent ; 
+	-fx-border-radius : 10 ;
+	-fx-background-radius: 10 ;
+	-fx-cursor: hand;
+}
+
+.buttonAddAvata{
+	-fx-background-color : white ; 
+	-fx-background-radius : 10 ;
+}
+
+.buttonAddAvata:hover{
+	-fx-background-color : #d3d3d3 ; 
+	-fx-background-radius : 10 ;
+	-fx-cursor: hand;
+	
+}
+
+.buttonLogo{
+	-fx-background-color: transparent ; 
+}
+
+.buttonLogo:hover{
+	-fx-background-color: transparent ;
+	-fx-cursor: hand;
+}
+
+.buttonMyInfor{
+	-fx-background-color: white ; 
+	-fx-background-radius : 10 ; 
+}
+
+.buttonMyInfor:hover{
+	-fx-background-color: #d3d3d3 ; 
+	-fx-background-radius : 10 ;
+	-fx-cursor: hand; 
+}
+
+.buttonApplication{ 
+	-fx-background-color: #6495ed; 
+	-fx-background-radius: 20 ;
+}
+
+.buttonApplication:hover{ 
+	-fx-background-color: #0000ff; 
+	-fx-background-radius: 20 ;
+	-fx-cursor: hand;
+	-fx-text-fill : white ; 
+}
